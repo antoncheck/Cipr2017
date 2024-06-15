@@ -1,0 +1,110 @@
+@import url(../styles/fonts.css);
+*{
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    margin: 0 auto;
+    height: 1100px;
+    padding: 0;
+    background: url(../img/3.png), url(../img/BG1.png);
+    overflow-x: hidden;
+    background-size: 20%, 100%;
+    background-repeat: no-repeat;
+    
+    
+    
+  
+}
+
+
+.container{
+    
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+    
+    
+.knopki .container button{
+    border-radius: 0px 0px 20px 20px;   
+    border-color: rgba(255, 228, 196, 0); 
+    padding: 10px 40px 15px 40px;
+    background-color: #ffffffda;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.knopki .lodo{
+    background-color: #ffffffda;
+    width: 8%;
+    padding-left: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px 30px 0px 30px; 
+}
+.knopki .head-info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    
+}
+.lodo img{
+    display: flex;
+    justify-content: center;
+}
+.knopki .head-info h2{
+    font-weight: 700;
+    font-size: 20px;
+    color: #F87932;
+}
+.knopki .container .omg{
+    display: flex;
+    justify-content: space-between;
+}
+.omg .blok1 button{
+    margin: 0;
+    border-radius:0 ;
+    margin-top: 55px;
+    width: 213px;
+    height: 62px;
+    padding: 16px 24px 16px 24px;
+    background-color:#F87932;
+    
+}
+.omg .blok1 h2{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.omg .blok1 p {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 80px;
+    color: #39BFA7;
+    height: 96px;
+}
+
+.omg .blok1{
+    width: 100%;
+    align-content: center;
+}
+
+.omg .blok1 h1{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 80px;
+    color: #F87932;
+}
+.omg .blok2 img{
+    width: 650px;
+}
