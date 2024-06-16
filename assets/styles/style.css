@@ -179,7 +179,7 @@ header{
 /*more*/
 .more{
     background: url(../img/Bg2.png);
-    height: 1100px;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     overflow-x: hidden;
@@ -238,6 +238,135 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+
+/*много картинок*/
+.travel .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+.travel .container .txtgl{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.travel .container .txtvt{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.travel .container .rombiki{
+    width: 157px;
+    height: 19px;
+    margin-bottom: 20px;
+}
+.travel .container .content{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.travel .container .fotos .block1 .fot1{
+   width: 282px;
+   height: 584px;
+   background-position: center;
+}
+.travel .container .fotos .block1 .fot2{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+    
+}
+.travel .container .fotos .block1 .fot3{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+    
+}
+.travel .container .fotos .block1{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+    
+}
+.travel .container .fotos .block1 .fot1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.travel .container .fotos .block1 .fot2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.travel .container .fotos .block1 .fot3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.travel .container .fotos{
+    display: flex;
+
+}
+.travel .container .fotos .block1{
+    margin-right: 10px;
+}
+.travel .container .fotos .block2{
+    margin-left: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+}
+.travel .container .fotos .block2 .fot4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.travel .container .fotos .block2 .fot4{
+    width: 584px;
+    height: 282px;
+    background-position: center;
+}
+.travel .container .fotos .block2 .fot5{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+}
+.travel .container .fotos .block2 .fot6{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+    
+}
+.travel .container .go{
+    width: 206px;
+    height: 62px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+    border: 2px solid #222222;
+    letter-spacing: 2px;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.travel{
+    margin-bottom: 70px;
 }
 
 
