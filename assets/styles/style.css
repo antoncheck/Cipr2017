@@ -10,7 +10,7 @@
 }
 header{
     margin: 0 auto;
-    height: 1100px;
+    height: 1150px;
     padding: 0;
     background: url(../img/3.png), url(../img/BG1.png);
     overflow-x: hidden;
@@ -29,9 +29,7 @@ header{
     margin: 0 auto;
 
 }
-
-    
-    
+  
 .knopki .container button{
     border-radius: 0px 0px 20px 20px;   
     border-color: rgba(255, 228, 196, 0); 
@@ -76,7 +74,7 @@ header{
     height: 62px;
     padding: 16px 24px 16px 24px;
     background-color:#F87932;
-    
+    letter-spacing: 2px;
 }
 .omg .blok1 h2{
     font-family: "Lato";
@@ -108,3 +106,76 @@ header{
 .omg .blok2 img{
     width: 650px;
 }
+
+/* section map*/
+.map{
+    margin-bottom: 50px;
+}
+.map .container{
+    position: relative;
+}
+.map .container .bloki{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.map .container .blok1 .pictures{
+    width: 770px;
+    height: 638px;
+    background: url(../img/map.png) no-repeat;
+    padding-top: 170px;
+    position: absolute;
+    transform: translate(-170px,-110px);
+    z-index: -1;
+    
+}
+.map .container .blok1  .relax{
+    font-size: 'Lato';
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 50px;
+    
+}
+.map .container .blok1  .advent{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 60px;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.map .container .blok1  .welcome{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 5px;
+    margin-bottom: 170px;
+}
+.map .container .blok1 .book{
+    width: 213px;
+    height: 62px;
+    border: 2px solid #222222;
+    background-color: white;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+
+.map .container .blok2 .pict{
+    background: url(../img/4.png) no-repeat;
+    width: 587px;
+    height: 458px;
+    background-size: contain;
+    margin-top: 50px;
+     
+}
+
+
+
