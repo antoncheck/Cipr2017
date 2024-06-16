@@ -369,4 +369,102 @@ header{
     margin-bottom: 70px;
 }
 
+/*дорога*/
+.doroga{
+    background: url(../img/BG3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.doroga .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+}
+
+.doroga .container .tourist{
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.doroga .container .rombs{
+    width: 157px;
+    height: 23px;
+    background: url(../img/rombiki2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.doroga .container .welcome{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.doroga .container .blo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.doroga .container .blo .upcom{
+    font-family: 'SedgwickAve';
+    font-size: 60px;
+    font-weight: 400;
+    color: #39BFA7;
+    margin-left: 200px;
+}
+.doroga .container .blo .daties{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.doroga .container .blo .daties .chislo{
+    font-family: 'SedgwickAve';
+    font-size: 80px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: 0;
+    margin-right: 10px;
+}
+.doroga .container .blo .daties .mes .mounth{
+    font-family: 'SedgwickAve';
+    font-weight: 400;
+    font-size: 28px;
+    color: #969696;
+    margin: 0;
+}
+.doroga .container .blo .daties .mes .nazv{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 40px;
+    color: #DDDDDD;
+    margin: 0;
+    
+}
+.doroga .container .bokes{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    width: 213px;
+    height: 62px;
+    border: none;
+    background-color: #F87932;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
