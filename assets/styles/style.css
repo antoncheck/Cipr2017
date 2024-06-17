@@ -10,7 +10,7 @@
 }
 header{
     margin: 0 auto;
-    height: 1100px;
+    height: 1150px;
     padding: 0;
     background: url(../img/3.png), url(../img/BG1.png);
     overflow-x: hidden;
@@ -22,15 +22,14 @@ header{
   
 }
 
+
 .container{
     
     width: 1200px;
     margin: 0 auto;
 
 }
-
-    
-    
+  
 .knopki .container button{
     border-radius: 0px 0px 20px 20px;   
     border-color: rgba(255, 228, 196, 0); 
@@ -51,6 +50,7 @@ header{
 .knopki .head-info{
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
     
 }
 .lodo img{
@@ -62,5 +62,568 @@ header{
     font-size: 20px;
     color: #F87932;
 }
+.knopki .container .omg{
+    display: flex;
+    justify-content: space-between;
+}
+.omg .blok1 button{
+    margin: 0;
+    border-radius:0 ;
+    margin-top: 55px;
+    width: 213px;
+    height: 62px;
+    padding: 16px 24px 16px 24px;
+    background-color:#F87932;
+    letter-spacing: 2px;
+}
+.omg .blok1 h2{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
 
+
+.omg .blok1 p {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 80px;
+    color: #39BFA7;
+    height: 96px;
+}
+
+.omg .blok1{
+    width: 100%;
+    align-content: center;
+}
+
+.omg .blok1 h1{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 80px;
+    color: #F87932;
+}
+.omg .blok2 img{
+    width: 650px;
+}
+
+/* section map*/
+.map{
+    margin-bottom: 50px;
+}
+.map .container{
+    position: relative;
+}
+.map .container .bloki{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.map .container .blok1 .pictures{
+    width: 770px;
+    height: 638px;
+    background: url(../img/map.png) no-repeat;
+    padding-top: 170px;
+    position: absolute;
+    transform: translate(-170px,-110px);
+    z-index: -1;
+    
+}
+.map .container .blok1  .relax{
+    font-size: 'Lato';
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 50px;
+    
+}
+.map .container .blok1  .advent{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 60px;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.map .container .blok1  .welcome{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 5px;
+    margin-bottom: 170px;
+}
+.map .container .blok1 .book{
+    width: 213px;
+    height: 62px;
+    border: 2px solid #222222;
+    background-color: white;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+
+.map .container .blok2 .pict{
+    background: url(../img/4.png) no-repeat;
+    width: 587px;
+    height: 458px;
+    background-size: contain;
+    margin-top: 50px;
+     
+}
+/*more*/
+.more{
+    background: url(../img/Bg2.png);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.more .bloks1 .text .glav{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 60px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    
+}
+.more .bloks1 .text .vtor{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.more .bloks1 .play{
+    background: url(../img/btn_play.png);
+    width: 164px ;
+    height: 164px;
+    background-size: contain;
+    border-color: #33333300;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.more .bloks1 .kn {
+    display: flex;
+    justify-content: center;
+}
+.more .bloks1{
+    margin-top: 370px;
+    
+}
+
+.more .container{
+    
+    justify-content: center;
+    
+}
+.more .bloks2 .phto{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/*много картинок*/
+.travel .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+.travel .container .txtgl{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.travel .container .txtvt{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.travel .container .rombiki{
+    width: 157px;
+    height: 19px;
+    margin-bottom: 20px;
+}
+.travel .container .content{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.travel .container .fotos .block1 .fot1{
+   width: 282px;
+   height: 584px;
+   background-position: center;
+}
+.travel .container .fotos .block1 .fot2{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+    
+}
+.travel .container .fotos .block1 .fot3{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+    
+}
+.travel .container .fotos .block1{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+    
+}
+.travel .container .fotos .block1 .fot1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.travel .container .fotos .block1 .fot2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.travel .container .fotos .block1 .fot3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.travel .container .fotos{
+    display: flex;
+
+}
+.travel .container .fotos .block1{
+    margin-right: 10px;
+}
+.travel .container .fotos .block2{
+    margin-left: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+}
+.travel .container .fotos .block2 .fot4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.travel .container .fotos .block2 .fot4{
+    width: 584px;
+    height: 282px;
+    background-position: center;
+}
+.travel .container .fotos .block2 .fot5{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+}
+.travel .container .fotos .block2 .fot6{
+    width: 282px;
+    height: 282px;
+    background-position: center;
+    
+}
+.travel .container .go{
+    width: 206px;
+    height: 62px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+    border: 2px solid #222222;
+    letter-spacing: 2px;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.travel{
+    margin-bottom: 70px;
+}
+
+/*дорога*/
+.doroga{
+    background: url(../img/BG3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.doroga .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+}
+
+.doroga .container .tourist{
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.doroga .container .rombs{
+    width: 157px;
+    height: 23px;
+    background: url(../img/rombiki2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.doroga .container .welcome{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.doroga .container .blo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.doroga .container .blo .upcom{
+    font-family: 'SedgwickAve';
+    font-size: 60px;
+    font-weight: 400;
+    color: #39BFA7;
+    margin-left: 200px;
+}
+.doroga .container .blo .daties{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.doroga .container .blo .daties .chislo{
+    font-family: 'SedgwickAve';
+    font-size: 80px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: 0;
+    margin-right: 10px;
+}
+.doroga .container .blo .daties .mes .mounth{
+    font-family: 'SedgwickAve';
+    font-weight: 400;
+    font-size: 28px;
+    color: #969696;
+    margin: 0;
+}
+.doroga .container .blo .daties .mes .nazv{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 40px;
+    color: #DDDDDD;
+    margin: 0;
+    
+}
+.doroga .container .bokes{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    width: 213px;
+    height: 62px;
+    border: none;
+    background-color: #F87932;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*Обратная связь*/
+.obr{
+    padding-top: 100px;
+    background-color: #444444;
+    
+}
+.obr .container{
+    display: flex;
+    flex-direction: column;
+}
+.obr .container .txtglav{
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+.obr .container .rob{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.obr .container .rombi{
+    width: 157px;
+    height: 19px;
+    
+}
+.obr .container .reg{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    word-spacing: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.obr .col-sm-2{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 20px;
+    
+}
+.obr .form-check-label{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.obr .otp{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    width: 213px;
+    height: 62px;
+    border: none;
+    background-color: #F87932;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.obr .otprbut{
+    display: flex;
+    justify-content: center;
+}
+/*футор*/
+
+.niz{
+    background-color: #151C21;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.niz .container{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    align-items: center;
+    align-items: flex-start;
+}
+.niz .container .bloka .logo{
+    width: 77px;
+    height: 142px;
+    background-size: cover;
+}
+.niz .container .bloka .tele{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka .email{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka .office{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka .center{
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.niz .container .bloka .phone{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+}
+.niz .container .line{
+    width: 100%;
+    height: 2px;
+    background-color: #666666;
+}
+.niz .container .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.niz .container .copiright{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.niz .container .privacy{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-top: 20px;
+}
+.niz .container .info .icons{
+    display: flex;
+    margin-top: 20px;
+}
+.niz .container .info .icons img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
