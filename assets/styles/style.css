@@ -538,4 +538,92 @@ header{
     display: flex;
     justify-content: center;
 }
+/*футор*/
+
+.niz{
+    background-color: #151C21;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.niz .container{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    align-items: center;
+    align-items: flex-start;
+}
+.niz .container .bloka .logo{
+    width: 77px;
+    height: 142px;
+    background-size: cover;
+}
+.niz .container .bloka .tele{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka .email{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka .office{
+    display: flex;
+    flex-direction: column;
+}
+.niz .container .bloka .center{
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.niz .container .bloka .phone{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+}
+.niz .container .line{
+    width: 100%;
+    height: 2px;
+    background-color: #666666;
+}
+.niz .container .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.niz .container .copiright{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.niz .container .privacy{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-top: 20px;
+}
+.niz .container .info .icons{
+    display: flex;
+    margin-top: 20px;
+}
+.niz .container .info .icons img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
