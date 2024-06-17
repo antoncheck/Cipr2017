@@ -22,6 +22,10 @@ header{
     overflow-x: hidden;
     background-size: 20%, 100%;
     background-repeat: no-repeat;
+    background-size: none, cover;
+    background-position: none, center;
+    position: relative;
+
     
 }
 
@@ -92,7 +96,7 @@ header{
     font-weight: 700;
     font-size: 80px;
     color: #39BFA7;
-    height: 96px;
+    
 }
 
 .omg .blok1{
@@ -407,11 +411,12 @@ header{
 }
 .doroga .container .welcome{
     font-family: 'Lato';
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 300;
     color: #EEEEEE;
     text-align: center;
     margin-bottom: 40px;
+    word-spacing: 10px;
 }
 .doroga .container .blo{
     display: flex;
@@ -627,3 +632,64 @@ header{
     margin-left: 10px;
 }
 
+/*Адаптив*/
+@media (max-width: 480px) {
+    .container{
+        width:  320px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .colection-present{
+        display: none;
+    }
+    .knopki .blogi{
+        display: none;
+    }
+    .knopki .lodo {
+        background-color: #ffffff00;
+        margin-left: 15px;
+        width: 42px;
+        height: 77.6px;
+        
+    }
+    .knopki .head-info {
+        display: flex;
+        justify-content: start;
+        margin: 10px;
+        position: relative;
+        left: -9%;
+    }
+    header {
+        background-image: none, url(../img/BG1.png);
+        background-size: 900px;
+        overflow-x: hidden;
+       
+    }
+    .omg .blok1 p {
+        font-size: 40px;    
+    }
+    .omg .blok1 h1{
+        font-size: 40px;
+    }
+    
+    .omg .blok1 {
+        width: 100%;
+        align-content: center;
+    }
+    .knopki .container .omg{
+        display: block;
+    }
+    .omg .blok1 button {
+        margin-top: 20px;
+        width: 98px;
+        height: 28px;
+        
+    }
+    .omg .blok1 button h2{
+        font-weight: 700;
+        font-size: 8px;
+        width: 40px;
+    }
+    
+
+}
