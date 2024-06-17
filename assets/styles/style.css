@@ -18,14 +18,14 @@ header{
     margin: 0 auto;
     height: 1150px;
     padding: 0;
-    background: url(../img/3.png), url(../img/BG1.png);
+    background-image: url(../img/3.png), url(../img/BG1.png);
     overflow-x: hidden;
     background-size: 20%, 100%;
     background-repeat: no-repeat;
-    
-    
-    
-  
+
+
+
+
 }
 
 
