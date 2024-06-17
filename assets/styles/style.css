@@ -466,5 +466,76 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+/*Обратная связь*/
+.obr{
+    padding-top: 100px;
+    background-color: #444444;
+    
+}
+.obr .container{
+    display: flex;
+    flex-direction: column;
+}
+.obr .container .txtglav{
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+.obr .container .rob{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.obr .container .rombi{
+    width: 157px;
+    height: 19px;
+    
+}
+.obr .container .reg{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    word-spacing: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.obr .col-sm-2{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 20px;
+    
+}
+.obr .form-check-label{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.obr .otp{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    width: 213px;
+    height: 62px;
+    border: none;
+    background-color: #F87932;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.obr .otprbut{
+    display: flex;
+    justify-content: center;
+}
 
