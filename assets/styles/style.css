@@ -174,8 +174,8 @@ header{
 
 .map .container .blok2 .pict{
     background: url(../img/4.png) no-repeat;
-    width: 587px;
-    height: 458px;
+    width: 600px;
+    height: 500px;
     background-size: contain;
     margin-top: 50px;
      
@@ -209,7 +209,7 @@ header{
     letter-spacing: 4px;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
     
 }
 .more .bloks1 .play{
@@ -218,7 +218,7 @@ header{
     height: 164px;
     background-size: contain;
     border-color: #33333300;
-    margin-top: 120px;
+    margin-top: 110px;
     display: flex;
     justify-content: center;
     
@@ -228,9 +228,8 @@ header{
     display: flex;
     justify-content: center;
 }
-.more .bloks1{
-    margin-top: 370px;
-    
+.more .bloks1 {
+    margin-top: 330px;
 }
 
 .more .container{
@@ -241,7 +240,7 @@ header{
 .more .bloks2 .phto{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 116px;
 }
 
 /*много картинок*/
@@ -266,12 +265,12 @@ header{
     font-size: 32px;
     color: #444444;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
 }
 .travel .container .rombiki{
     width: 157px;
     height: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .travel .container .content{
     font-family: 'Lato';
@@ -280,7 +279,7 @@ header{
     color: #666666;
     text-align: center;
     letter-spacing: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .travel .container .fotos .block1 .fot1{
    width: 282px;
@@ -378,8 +377,9 @@ header{
     background: url(../img/BG3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    
 
 
 }
@@ -389,7 +389,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px solid #FFFFFF;
+    border: 5px solid #FFFFFF;
 }
 
 .doroga .container .tourist{
@@ -398,7 +398,7 @@ header{
     font-weight: 900;
     color: #FFFFFF;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .doroga .container .rombs{
@@ -407,16 +407,17 @@ header{
     background: url(../img/rombiki2.png) no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .doroga .container .welcome{
     font-family: 'Lato';
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #EEEEEE;
     text-align: center;
-    margin-bottom: 40px;
-    word-spacing: 10px;
+    margin-bottom: 60px;
+    letter-spacing: 0.3em;
+    line-height: 1.4em;
 }
 .doroga .container .blo{
     display: flex;
@@ -433,7 +434,7 @@ header{
 .doroga .container .blo .daties{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .doroga .container .blo .daties .chislo{
     font-family: 'SedgwickAve';
@@ -463,13 +464,13 @@ header{
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
-    word-spacing: 5px;
+    letter-spacing: 5px;
     width: 213px;
     height: 62px;
     border: none;
     background-color: #F87932;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 /*Обратная связь*/
 .obr{
@@ -531,7 +532,7 @@ header{
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
-    word-spacing: 5px;
+    letter-spacing: 5px;
     width: 213px;
     height: 62px;
     border: none;
@@ -546,14 +547,15 @@ header{
 /*футор*/
 
 .niz{
-    background-color: #151C21;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color: #000000;
+    
+    
+    
 }
 
 .niz .container{
-    display: flex;
-    flex-direction: column;
+    padding-top: 120px;
+    height: 570px;
 }
 .niz .container .bloka{
     display: flex;
