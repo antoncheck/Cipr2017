@@ -625,6 +625,9 @@ header{
     margin-top: 0;
     margin-top: 20px;
 }
+.niz .container .privacy a{
+    color: var(--font-family);
+}
 .niz .container .info .icons{
     display: flex;
     margin-top: 20px;
@@ -679,8 +682,9 @@ header{
     }
     
     .omg .blok1 {
-        width: 100%;
+        width: 98%;
         margin-top: 40px;
+        
     }
     .knopki .container .omg{
         display: block;
@@ -708,21 +712,60 @@ header{
         display: flex;
         justify-content: center;
     }
+    /*map*/
     .map .container .blok1 .relax {
         font-family: 'Lato', sans-serif;
         font-weight: 500;
         font-size: 18px;
-        margin-left: 52px;
+        text-align: center;
+
     }
     .map .container .blok1 .advent {
-        font-family: 'Merriweather', sans-serif;
         font-size: 35px;
-        margin-left: 18px;
         text-align: center;
+        margin-top: 10%;
     }
     .map .container .bloki{
         display: block;
     }
+    .map .container .blok1 .welcome {
+        
+        font-size: 15px;
+        margin-top: 12%;
+        text-align: center;
+    }
+    .map .container .blok1 .pictures{
+        position: absolute;
+        top: -30px;
+        left: -12px;
+        
+    }
+    .map .container .blok2{
+        height: 0;
+    }
+    .map .container .blok2 .pict {
+    
+        background: url(../img/grup.png) no-repeat;
+        
+        height: 290px;
+        background-size: auto;
+        position: relative;
+        top: -270px;
+        left: -12px;
+        
+        }
+     .map .container .blok1 .book {
+        width: 98px !important;
+        height: 28px !important;
+        border: 1px solid #222222;
+        background-color: white;
+    
+        font-size: 8px;
+        letter-spacing: 2px;
+        
+        }
+        
+    
     
    
 
