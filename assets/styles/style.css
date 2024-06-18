@@ -508,7 +508,7 @@ header{
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
-    word-spacing: 5px;
+    letter-spacing: 5px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -663,20 +663,23 @@ header{
     }
     header {
         background-image: none, url(../img/BG1.png);
-        background-size: 900px;
+        background-size: 1100px;
         overflow-x: hidden;
+        height: 650px;
        
     }
     .omg .blok1 p {
-        font-size: 40px;    
+        font-size: 40px;
+        margin-bottom: 0;    
     }
     .omg .blok1 h1{
         font-size: 40px;
+        margin-top: -10px; 
     }
     
     .omg .blok1 {
         width: 100%;
-        align-content: center;
+        margin-top: 40px;
     }
     .knopki .container .omg{
         display: block;
@@ -685,13 +688,27 @@ header{
         margin-top: 20px;
         width: 98px;
         height: 28px;
+        padding: 5px 9px 5px 9px;
         
     }
     .omg .blok1 button h2{
         font-weight: 700;
         font-size: 8px;
-        width: 40px;
+        width: 80px;
+    }
+    .omg .blok2 img {
+        width: 250px;
+        align-items: center;
+        
+       
     }
     
+    .omg .blok2 {
+        display: flex;
+        justify-content: center;
+        
+       
+    }
+
 
 }
