@@ -764,9 +764,46 @@ header{
         letter-spacing: 2px;
         
         }
+    /*more*/
+    .more {
+        background: url(../img/scally.png);
+        height: 510px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    }
+    .more .bloks1 {
+        margin-top: 0;
+    }
+    .more .bloks1 .text .glav {
+        text-align: center;
+        font-size: 17px;
+        line-height: 14px;
         
-    
-    
+    }
+    .more .bloks1 .text{
+        margin-top: 125px;
+    }
+    .more .bloks1 .text .vtor {
+        text-align: center;
+        font-size: 7px;
+        display: block;
+        margin-top: 28px;
+    }
+    .more .bloks1 .play {
+        display: none;
+    }
+    .more .bloks2 .phto img{
+        display: none;
+    }
+    .more .bloks2 .phto{
+        background-image: url(..//img/rombi\ romb.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 290px;
+        position: relative;
+        top: -106px;
+    }
    
 
 
