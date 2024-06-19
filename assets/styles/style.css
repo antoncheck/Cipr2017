@@ -804,6 +804,110 @@ header{
         position: relative;
         top: -106px;
     }
+
+    /*blog*/
+    .travel .container .txtgl {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .travel .container .txtvt {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 17px;
+    
+    }
+    .travel .container .rombiki img {
+        display: none;
+        
+
+    }
+    .travel .container .rombiki {
+        background-image: url(..//img/adap_romboki_color.png);
+        height: 10px;
+        width: 78px;
+    }
+    .travel .container .content {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 9px;
+        color: #666666;
+        text-align: center;
+        letter-spacing: 5px;
+        margin-bottom: 55px;
+    }
+    .travel .container .fotos {
+        display: block; 
+    }
+    .travel .container .fotos .block2{
+        margin-top: 20px;
+    }
+    .travel .container .go {
+        width: 135px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .doroga .container {
+        width: 84%;
+        position: relative;
+        right: 7px;
+    }
+    .doroga .container .tourist {
+        font-family: 'Merriweather';
+        font-size: 27px;
+        font-weight: 900;
+        color: #FFFFFF;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .doroga .container .welcome {
+        font-family: 'Lato';
+        font-size: 7px;
+    }
+    .doroga .container .blo {
+        display:block;
+        width: 100%;
+    }
+    .doroga .container .blo .upcom {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .doroga .container .blo .daties .mes .mounth {
+        font-family: 'SedgwickAve';
+        font-weight: 400;
+        font-size: 12px;
+        color: #969696;
+        margin: 0;
+    }
+    .doroga .container .blo .daties .chislo {
+        font-family: 'SedgwickAve';
+        font-size: 32px;
+        font-weight: 300;
+        color: #FFFFFF;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .doroga .container .blo .daties .mes .nazv {
+        font-family: 'Merriweather';
+        font-weight: 900;
+        font-size: 17px;
+        color: #DDDDDD;
+        margin: 0;
+    }
+    .doroga .container .blo .daties {
+        margin-bottom: 20px;
+    }
+    .doroga .container .bokes {
+        font-size: 10px;
+        width: 135px;
+        height: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
    
 
 
