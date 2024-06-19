@@ -907,6 +907,29 @@ header{
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .obr .container .txtglav {
+        
+        font-size: 28px;
+    }
+    .obr .container .reg{
+        font-size: 9px;
+        text-align: center;
+    }
+    .obr .col-sm-2 {
+        font-size: 15px;
+    }
+    .obr .form-check-label {
+        font-family: 'Lato';
+        font-size: 15px;
+    }
+    .form-control {
+        width: 280px !important;
+    }
+    .obr .otp {
+        font-size: 10px;
+        width: 135px;
+        height: 40px;
+    }
 
    
 
