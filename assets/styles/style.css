@@ -14,6 +14,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 header{
     margin: 0 auto;
     height: 1150px;
@@ -929,6 +932,56 @@ header{
         font-size: 10px;
         width: 135px;
         height: 40px;
+    }
+    /*футор*/
+    .niz .container .bloka .center {
+        font-size: 12px;   
+    }
+    .niz .container .bloka .phone {
+        font-size: 10px;
+    }
+    .niz .container .bloka {
+        display: block; 
+        position: relative;
+        left: 50%;
+        top: -90px;
+        
+        
+    }
+
+    .niz .container {
+        padding-top: 0;
+        height: auto;
+    }
+    .niz .container .bloka .logo {
+        position: relative;
+        right: 45%;
+        top: 147px;
+    }
+    .niz .container .bloka .tele {
+        margin-bottom: 6%;
+    }
+    .niz .container .bloka .email {
+        margin-bottom: 6%;
+    }
+    .niz .container .line {
+        position: relative;
+        top: -100px;
+    }
+    .niz .container .copiright {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .niz .container .privacy {
+
+        font-size: 10px;
+        margin-top: 0;
+        margin-top: 10px;
+    }
+    .niz .container .info {
+        margin-top: 0;
+        position: relative;
+        top: -60px;
     }
 
    
